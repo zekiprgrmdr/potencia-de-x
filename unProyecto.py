@@ -1,6 +1,7 @@
-def PotenciaDeUnNumero(base,potencia):
+def PotenciaDeUnNumero(base):
     i=0
     resultado=1
+    potencia = int(input("Ingresar la potencia de la base -->2"))
 
     while(i!=potencia):
           resultado = resultado*base
@@ -10,4 +11,4 @@ def PotenciaDeUnNumero(base,potencia):
 
 
 
-print(PotenciaDeUnNumero(9,5))
+print(PotenciaDeUnNumero(9))
